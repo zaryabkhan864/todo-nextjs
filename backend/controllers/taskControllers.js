@@ -1,4 +1,4 @@
-import Task from '../models/taskSchema.js';   // import the Task model (assuming default export)
+import Task from "../models/Task.js"
 
 // GET all records
 export const getTask = async (req, res) => {
